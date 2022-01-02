@@ -155,7 +155,8 @@ let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'python': ['flake8'],
 \   'go': ['go', 'golint', 'errcheck'],
-\   'rust': ['analyzer']
+\   'rust': ['analyzer'],
+\   'cpp': ['clangd']
 \}
 
 let g:ale_fixers = {
